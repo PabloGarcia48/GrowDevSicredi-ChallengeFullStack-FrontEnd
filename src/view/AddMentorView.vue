@@ -26,7 +26,7 @@ onMounted(() => {
 
 <template>
   <main>
-    <div>
+    <div style="min-width: 300px">
       <h1>Adicionar um Mentor</h1>
       <v-text-field label="Nome" v-model="name"></v-text-field>
       <v-text-field label="Email" v-model="email"></v-text-field>

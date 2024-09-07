@@ -34,19 +34,15 @@ async function doLogin() {
 
 <template>
   <main>
-    <div>
-      <v-sheet class="mx-auto" width="300">
-        <h1>Login de Usuário</h1>
-        <v-form @submit.prevent>
-          <v-text-field v-model="email" label="Email"></v-text-field>
-          <v-text-field
-            v-model="password"
-            type="password"
-            label="Senha"
-          ></v-text-field>
-          <v-btn class="mt-2" @click="doLogin" type="submit" block>Login</v-btn>
-        </v-form>
-      </v-sheet>
+    <div style="min-width: 300px">
+      <h1>Fazer Login</h1>
+      <v-text-field label="Email" v-model="email"></v-text-field>
+      <v-text-field
+        label="Senha"
+        type="password"
+        v-model="password"
+      ></v-text-field>
+      <v-btn @click="doLogin" type="button">Logar</v-btn>
     </div>
   </main>
 </template>

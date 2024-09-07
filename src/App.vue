@@ -29,7 +29,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar title="Application bar"></v-app-bar>
+    <v-app-bar title="Cadastro de Mentores"></v-app-bar>
 
     <v-main
       class="d-flex align-center justify-center"
@@ -46,27 +46,18 @@
       </v-btn>
 
       <v-btn>
-        <RouterLink to="/user"
+        <RouterLink to="/addmentor"
           ><img
-            src="./components/icons/user_icon.svg"
+            src="./components/icons/add_mentor_icon.svg"
             alt="logo usuario"
             width="30"
         /></RouterLink>
       </v-btn>
 
       <v-btn>
-        <RouterLink to="/listcar"
+        <RouterLink to="/listmentor"
           ><img
-            src="./components/icons/list_car_icon.svg"
-            alt="login"
-            width="30"
-        /></RouterLink>
-      </v-btn>
-
-      <v-btn>
-        <RouterLink to="/addcar"
-          ><img
-            src="./components/icons/add_car_icon.svg"
+            src="./components/icons/list_mentor_icon.svg"
             alt="login"
             width="30"
         /></RouterLink>

@@ -9,5 +9,16 @@ defineProps<MentorTypeProps>();
 </script>
 
 <template>
-  <v-card :title="data.name" :text="data.cpf" variant="outlined"></v-card>
+  <v-card
+    class="card"
+    :title="data.name"
+    :text="data.cpf"
+    variant="outlined"
+  ></v-card>
 </template>
+
+<style>
+.card {
+  border-color: #a460e4;
+}
+</style>
